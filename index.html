@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Develeap 19th DevOps BootCamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="Develeap%2019th%20DevOps%20BootCamp_files/css2.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #202020;
+            color: #ffffff;
+            font-family: 'Abel', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            background-image: url("https://images.unsplash.com/photo-1638414154639-0fbc5bceb80f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80://uploads-ssl.webflow.com/6110d70cec9e430e23bd23c9/6110d70cec9e43eac3bd258d_insight.jpg");
+            background-position: center;
+            background-size: 70%;
+            display: flex;
+            /* justify-content: center; */
+            height: 90vh;
+            text-transform: uppercase;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title_div {
+            transition: all 1s ease-in-out;
+            margin-top: 4%;
+        }
+
+        .title_div:hover {}
+        
+        h1 {
+            overflow: hidden;
+            font-weight: 100;
+            font-size: 80px;
+            color: #c1c1c1;
+            text-align: center;
+            font-family: 'Abel', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+
+        .old-text, .new-text {
+            display: block;
+            overflow: hidden;
+            transition: all 1s ease-in-out;
+        }
+
+        .old-text {
+            height: auto;
+            opacity: 1;
+            width: auto;
+        }
+
+        .new-text {
+            color: #777777;
+            height: 0;
+            opacity: 0;
+            width: 0;
+        }
+
+        .title_div:hover .old-text {
+            height: 0px;
+            opacity: 0;
+            width: 0px;
+        }
+
+        .title_div:hover .new-text {
+            height: auto;
+            opacity: 1;
+            width: auto;
+        }
+
+        .links-containers {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 6%;
+        }
+
+        .links-container {
+            text-align: center;
+            width: 400px;
+        }
+
+        .link-item {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 1px;
+            font-size: 20px;
+            transition: background-color 0.2s ease;
+            backdrop-filter: blur(12px);
+        }
+
+        .link-item:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #202020;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 200;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #ddd;
+        }
+
+        .footer {
+            margin-top: 100px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ----------------------------------------------- Title Container --------------------------------------------- -->
+
+<div class="title_div">
+    <h1 class="title">
+          <span class="old-text">Develeap 19th DevOps BootCamp</span>
+          <span class="new-text">VIM IS WATCHING YOU!</span>
+       </h1>
+  </div>
+
+<!-- ----------------------------------------------- Links Container --------------------------------------------- -->
+
+    <div class="links-containers">
+
+<!-- ------------------------------------------------ Left Links DIV --------------------------------------------- -->
+
+        <div class="links-container">
+            <div class="link-item">
+                <a href="https://calendar.google.com/calendar/u/0?cid=Y18zNjMzYjc2MGEwYzQyZjM0ZWI4Zjc5YTMzN2VjNTc3MDdiNGE2OTYxN2EzNmJmNjk5ZGY5YjIyMWEwOGRiZDE4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank">BootCamp Calendar</a>
+            </div>
+
+            <div class="link-item">
+                <a href="https://github.com/">github</a>
+            </div>
+        </div>
+
+<!-- ------------------------------------------------ Center Links DIV --------------------------------------------- -->
+
+        <div class="links-container">
+            <div class="link-item">
+                <a href="https://develeap.academyocean.com/" target="_blank">Academy Ocean</a>
+            </div>
+
+            <div class="link-item">
+                <a href="https://hub.docker.com/">Docker HUB</a>
+            </div>
+        
+        </div>
+
+<!-- ------------------------------------------------ Right Links DIV --------------------------------------------- -->
+
+        <div class="links-container">
+            <div class="link-item">
+                <a href="https://chat.openai.com">Chat GPT</a>
+            </div>
+            
+            <div class="link-item">
+                <a href="https://app.netlify.com/teams/guy-glazer/overview">Netlify</a>
+            </div>
+            
+        </div>
+
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+
+
+    </div>
+    <div class="footer">
+        <p>Made by Erebus</p>
+    </div>
+</body>
+</html>
