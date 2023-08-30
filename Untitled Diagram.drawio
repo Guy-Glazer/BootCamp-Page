@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T13:08:07.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" version="21.6.8" etag="E3IuG6RAqZIuBpqawAFt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T13:43:57.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="fYmR3p7MFGDBjegOFizR" version="21.6.8" type="github">
   <diagram name="Page-1" id="ePdk9TKYztPULW251HT_">
-    <mxGraphModel>
+    <mxGraphModel dx="1984" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-2" value="&lt;p align=&quot;justify&quot; style=&quot;margin: 4px 0px 0px; font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;EC2&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;height: 2px; font-size: 14px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="560" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-4" target="MCP3sAi-UOKxlIE-Z9-J-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="119" y="460" />
+              <mxPoint x="280" y="460" />
+              <mxPoint x="280" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-4" target="MCP3sAi-UOKxlIE-Z9-J-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="340" />
+              <mxPoint x="220" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/gitlab-128.png;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="55" y="276" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-6" value="&lt;p align=&quot;justify&quot; style=&quot;margin: 4px 0px 0px; font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;Jenkins:8080&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;height: 2px; font-size: 14px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="500" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-8" target="MCP3sAi-UOKxlIE-Z9-J-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-8" value="SCM Integration - Push Event Listener&lt;br style=&quot;font-size: 14px;&quot;&gt;Once an event is invoked, the CI pipeline engages" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="181" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-9" target="MCP3sAi-UOKxlIE-Z9-J-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-9" value="SCM Pull" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="249" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-19" target="MCP3sAi-UOKxlIE-Z9-J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-19" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Dev Team&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="39" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-28" target="MCP3sAi-UOKxlIE-Z9-J-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-28" value="Docker Build" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="293" width="450" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-30" target="MCP3sAi-UOKxlIE-Z9-J-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-30" target="MCP3sAi-UOKxlIE-Z9-J-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-30" value="Trivy Scan" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="336" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-32" target="MCP3sAi-UOKxlIE-Z9-J-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-32" value="Docker Run" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="384" width="100" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-34" target="MCP3sAi-UOKxlIE-Z9-J-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-34" value="Testing Phase" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="478" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-36" value="Termination" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="384" width="100" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-55" target="MCP3sAi-UOKxlIE-Z9-J-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.48;exitY=1.166;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MCP3sAi-UOKxlIE-Z9-J-55" target="MCP3sAi-UOKxlIE-Z9-J-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-55" value="Tagging" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="70" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-57" value="Amazon ECR" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=14;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecr;" vertex="1" parent="1">
+          <mxGeometry x="79" y="500.5" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-59" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;WorkSpace CleanUp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="288" y="593" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="MCP3sAi-UOKxlIE-Z9-J-66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Push &lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
